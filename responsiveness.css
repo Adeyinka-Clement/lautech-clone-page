@@ -1,0 +1,50 @@
+@media screen and (max-width: 475px) {
+    .foot-head{
+        display: none;
+    }
+    .hamburger-btn{
+        margin-top: -70px;
+        margin-left: 250px;
+    }
+    .search-btn{
+        margin-top: -70px;
+        margin-left: 220px;
+
+
+    }
+    .hamburger-btn{
+        display: block;
+    }
+    .caro-img{
+  height: 280px;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+    
+    .carousel-control-next-icon{
+        display: none;
+    }
+    .dots{
+        margin-left: 45%;
+    }
+
+    .mission-center{
+        color: rgb(23, 23, 39);
+        font-weight: bold;
+        font-size: 20px
+     }
+     .para{
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 1.1;
+      }
+      .mission{
+        height: 185px;
+      }
+      .card-text1{
+        font-size: 11px !important;
+        line-height: 1px;
+        font-weight: 600 !important;
+    }
+}

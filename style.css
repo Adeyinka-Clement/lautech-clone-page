@@ -1,0 +1,248 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+
+
+}
+.foot-head{
+    border-bottom: 1px solid rgb(158, 149, 149);
+    background-color: white;
+}
+.logo-img{
+    /* width: 100px; */
+}
+.nav-item a{
+    color: grey !important;
+}
+.nav-item{
+    color: grey !important;
+    font-size: 12px;
+    font-weight: 650;
+}
+.hamburger-btn{
+    display: none;
+}
+.caro-img{
+
+}
+.carousel-control-prev-icon{
+    background-color: grey;
+}
+
+.carousel-control-next-icon{
+    background-color: grey;
+}
+.mission{
+    background-color: #BF9F61;
+    height: 175px;
+    color: rgb(23, 23, 39);
+
+}
+ .mission-center{
+    color: rgb(23, 23, 39);
+    font-weight: bold;
+    font-size: 30px
+ }
+.dots{
+    margin-left: 49%;
+}
+.dot1{
+    background-color: red;
+    border-radius: 100px;
+    height: 7px;
+    width: 7px;
+}
+
+.dot2{
+    background-color: blue;
+    border-radius: 100px;
+    height: 7px;
+    width: 7px;
+}
+
+.dot3{
+    background-color: yellow;
+    border-radius: 100px;
+    height: 7px;
+    width: 7px;
+}
+.para{
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 0.95;
+  }
+
+
+
+
+/* the hamburger */
+.burger {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    cursor: pointer;
+    display: block;
+    scale: 0.65 !important;
+  }
+  
+  .burger input {
+    display: none;
+  }
+  
+  .burger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: black;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+  
+  .burger span:nth-of-type(1) {
+    top: 0px;
+    transform-origin: left center;
+  }
+  
+  .burger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: left center;
+  }
+  
+  .burger span:nth-of-type(3) {
+    top: 100%;
+    transform-origin: left center;
+    transform: translateY(-100%);
+  }
+  
+  .burger input:checked ~ span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 0px;
+    left: 5px;
+  }
+  
+  .burger input:checked ~ span:nth-of-type(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  
+  .burger input:checked ~ span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 28px;
+    left: 5px;
+  }
+.events{
+    height: 200px !important;
+}
+.news{
+    height: 700px !important;
+}
+
+.card{
+    border: none !important;
+}
+.card-text1{
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+.card-text{
+    font-size: 12px !important;
+}
+.card-text:hover{
+    color: rgb(170, 0, 0) !important;
+}
+
+.cardapp {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo{
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .card-body .card-text{
+    font-size: 19px !important;
+    font-weight: 600;
+  }
+  .longpara{
+    color: rgb(30, 29, 29);
+  }
+  .textfade{
+    color: rgb(86, 84, 84);
+    font-weight: bold;
+  }
+  #cardlast{
+    border: 1px solid rgb(172, 171, 171) !important;
+  }
